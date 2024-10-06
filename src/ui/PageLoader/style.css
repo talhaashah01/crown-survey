@@ -1,0 +1,31 @@
+.pageLoaderWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background: #f5f3fb;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pageLoader {
+  margin: auto;
+  border: 18px solid #e6e3ef;
+  border-radius: 99px;
+  border-top: 18px solid #9a31bd;
+  width: 180px;
+  height: 180px;
+  animation: spinner 2.5s linear infinite;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

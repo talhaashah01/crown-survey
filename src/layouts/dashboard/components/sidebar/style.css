@@ -1,0 +1,43 @@
+.sidebar {
+  height: 100vh;
+  position: fixed;
+  transition: 0.3s linear;
+  background: var(--theme-soft-2);
+  z-index: 2;
+  top: 0;
+  /* padding: 30px 0px 50px; */
+  scrollbar-width: thin;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: none;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar.expanded {
+  width: 240px;
+}
+
+.sidebar.collapsed {
+  width: 60px;
+}
+
+.sidebarHeader {
+  transition: 0.3s linear;
+  height: 70px;
+}
+
+.sidebarLogo {
+  width: 60px;
+}
+
+.sidebarToggle {
+  width: 20px;
+}
+
+.sidebarFooter {
+  border-top: 1px solid var(--theme-soft-2);
+  height: 30px;
+}

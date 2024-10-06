@@ -1,0 +1,29 @@
+.dashboardBody {
+  min-height: calc(100vh - 70px);
+}
+
+.dashboardHeader {
+  background: var(--theme-soft-2);
+}
+
+.dashboardBody,
+.dashboardHeader {
+  transition: 0.3s linear;
+}
+
+.dashboardBody.expanded,
+.dashboardHeader.expanded {
+  margin-left: 240px;
+}
+
+.dashboardBody.collapsed,
+.dashboardHeader.collapsed {
+  margin-left: 60px;
+}
+
+@media screen and (max-width: 1280px) {
+  .dashboardBody.expanded,
+  .dashboardHeader.expanded {
+    margin-left: 60px;
+  }
+}

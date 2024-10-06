@@ -1,0 +1,42 @@
+.badge {
+  display: inline-block;
+  text-transform: capitalize;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.badge.success {
+  color: var(--theme-success);
+  background: var(--theme-success-soft);
+  border: 1px solid var(--theme-success-soft);
+}
+
+.badge.error {
+  color: var(--theme-error);
+  background: var(--theme-error-soft);
+  border: 1px solid var(--theme-error-soft);
+}
+
+.badge.attention {
+  color: var(--theme-attention);
+  background: var(--theme-attention-soft);
+  border: 1px solid var(--theme-attention-soft);
+}
+
+.badge.caution {
+  color: var(--theme-caution);
+  background: var(--theme-caution-soft);
+  border: 1px solid var(--theme-caution-soft);
+}
+
+.badge.available {
+  color: var(--theme-available);
+  background: var(--theme-available-soft);
+  border: 1px solid var(--theme-available-soft);
+}
+
+.badge.unavailable {
+  color: var(--theme-unavailable);
+  background: var(--theme-unavailable-soft);
+  border: 1px solid var(--theme-unavailable-soft);
+}

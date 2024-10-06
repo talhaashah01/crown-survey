@@ -1,0 +1,41 @@
+.menuIcon,
+.menuArrow {
+  width: 18px;
+}
+
+.dark-theme .menuIcon,
+.dark-theme .menuArrow {
+  filter: invert(1) brightness(1);
+}
+
+.menuItem .menuItemHeader {
+  border-bottom: 1px solid var(--theme-soft-gray);
+}
+
+.menuItem .menuItemHeader,
+.menuItem .menuArrow {
+  transition: 0.3s linear;
+}
+
+.menuItem.open .menuItemHeader,
+.menuItem.active .menuItemHeader,
+.menuItem:hover .menuItemHeader {
+  background: var(--theme-soft);
+}
+
+.menuItem.open .menuArrow {
+  transform: rotate(180deg);
+}
+
+.menuItem .menuItemBody {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: 0.3s linear;
+}
+
+.menuItem.open .menuItemBody {
+  height: auto;
+  opacity: 1;
+  transition: 0.3s linear;
+}

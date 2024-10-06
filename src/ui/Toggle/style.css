@@ -1,0 +1,37 @@
+.toggle {
+  width: 46px;
+  height: 22px;
+  border-radius: 99px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+.toggle.active {
+  background: var(--theme-success);
+}
+
+.toggle.inactive {
+  background: var(--theme-light-gray);
+}
+
+.toggle .slider {
+  width: 18px;
+  aspect-ratio: 1/1;
+  display: block;
+  background: #fff;
+  border-radius: 99px;
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+  transition: 0.3s linear;
+}
+
+.toggle.inactive .slider {
+  left: 2px;
+}
+
+.toggle.active .slider {
+  left: calc(100% - 2px - 18px);
+}

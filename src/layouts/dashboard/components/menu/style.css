@@ -1,0 +1,13 @@
+.menuWrapper {
+    height: calc(100vh - 100px);
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.menuWrapper::-webkit-scrollbar {
+    display: none;
+  }

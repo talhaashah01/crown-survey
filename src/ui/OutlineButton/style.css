@@ -1,0 +1,23 @@
+.outlineButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--theme-dark-gray);
+  line-height: 1;
+  border: 1px solid var(--theme-light-gray);
+  border-radius: 8px;
+  background: var(--theme-white);
+  padding: 0.6rem 2rem;
+  transition: 0.3s linear;
+}
+
+.outlineButton:hover {
+  background: var(--theme-soft);
+}
+
+.outlineButton img {
+  width: 1.5em;
+}

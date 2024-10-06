@@ -1,0 +1,15 @@
+.toast {
+  position: fixed;
+  bottom: 20px;
+  right: -360px;
+  width: 340px;
+  border-radius: 6px;
+  box-shadow: 0px 4px 15px rgb(0 0 0 / 10%);
+  padding: 10px;
+  transition: 0.3s linear;
+  z-index: 98;
+}
+
+.toast.show {
+  right: 20px;
+}

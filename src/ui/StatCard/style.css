@@ -1,0 +1,35 @@
+.statsCard {
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.statsContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-grow: 1;
+}
+
+.statsImg {
+    flex-shrink: 0;
+}
+
+.statsImg img {
+    width: 40px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+}
+
+.statsData {
+    flex-grow: 1;
+}
+
+.statsNumber {
+    margin: 0;
+}
+
+.statsText {
+    margin: 0;
+}

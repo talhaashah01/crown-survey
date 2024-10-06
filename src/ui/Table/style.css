@@ -1,0 +1,92 @@
+.themeTable {
+  overflow-x: auto;
+  /* overflow-y: hidden; */
+}
+
+/* width */
+.themeTable::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Track */
+.themeTable::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px var(--theme-soft-gray);
+  border-radius: 10px;
+}
+
+/* Handle */
+.themeTable::-webkit-scrollbar-thumb {
+  background: var(--theme-gray);
+  border-radius: 10px;
+}
+
+.themeTable th.text-left,
+.themeTable td.text-left {
+  text-align: left;
+}
+
+.themeTable th.text-right,
+.themeTable td.text-right {
+  text-align: right;
+}
+
+.themeTable th.text-start,
+.themeTable td.text-start {
+  text-align: start;
+}
+
+.themeTable th.text-end,
+.themeTable td.text-end {
+  text-align: end;
+}
+
+.themeTable th.text-center,
+.themeTable td.text-center {
+  text-align: center;
+}
+
+.themeTable tbody tr {
+  border-bottom: 1px solid var(--theme-light-gray);
+}
+
+.themeTable th,
+.themeTable td {
+  padding: 12px 16px;
+  vertical-align: middle;
+  /* white-space: nowrap; */
+  max-width: 480px;
+}
+
+.themeTable thead tr th:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.themeTable thead tr th:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.thumbnail {
+  width: 60px;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  object-position: center;
+}
+
+.tableAction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.tableAction {
+  flex-shrink: 0;
+}
+
+.tableAction img {
+  width: 20px;
+  aspect-ratio: 1/1;
+}

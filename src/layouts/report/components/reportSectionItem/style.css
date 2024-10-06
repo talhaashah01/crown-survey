@@ -1,0 +1,4 @@
+.reportSectionMainItem {
+  border-bottom: 1px solid var(--theme-soft);
+  transition: 0.3s linear;
+}

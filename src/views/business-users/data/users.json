@@ -1,0 +1,41 @@
+{
+    "totalCount": 4,
+    "users": [
+        {
+            "id": 1,
+            "type": "Business Account",
+            "name": "John Doe",
+            "email": "john.doe@email.com",
+            "phone": "+454545165",
+            "address": "Street 2, Tripoli, Libya",
+            "status": "Pending"
+        },
+        {
+            "id": 2,
+            "type": "Business Account",
+            "name": "Jane Smith",
+            "email": "jane.smith@email.com",
+            "phone": "+987654321",
+            "address": "Baker Street, London, UK",
+            "status": "Pending"
+        },
+        {
+            "id": 3,
+            "type": "Business Account",
+            "name": "ACME Corp.",
+            "email": "travel@acme.com",
+            "phone": "+123456789",
+            "address": "5th Avenue, New York, USA",
+            "status": "Approved"
+        },
+        {
+            "id": 4,
+            "type": "Business Account",
+            "name": "Michael Johnson",
+            "email": "michael.j@email.com",
+            "phone": "+5553332211",
+            "address": "Central Avenue, Sydney, Australia",
+            "status": "Rejected"
+        }
+    ]
+}

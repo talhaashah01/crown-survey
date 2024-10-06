@@ -1,0 +1,9 @@
+{
+    "id": 1,
+    "type": "Business Account",
+    "name": "John Doe",
+    "email": "john.doe@email.com",
+    "phone": "+454545165",
+    "address": "Street 2, Tripoli, Libya",
+    "status": "Pending"
+}
